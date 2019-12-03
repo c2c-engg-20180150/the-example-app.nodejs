@@ -10,6 +10,6 @@ RUN npm install
 COPY . .
 
 USER node
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["npm", "run", "start:dev"]
